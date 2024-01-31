@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FARMER SHOP</title>
+
+  <link rel="icon" type="image/x-icon" href="images/backgrounds/LOGO1.png">
+
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+
+  <link rel="stylesheet" href="css/new-navebar.css">
+
+  <link rel="stylesheet" href="css/grid_item.css">
+  <style>
+    #angertag:hover{
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        transition: 3s;
+    }
+</style>
+
+</head>
+
+<body>
+
+  <div class="navbar">
+    <img src="images/backgrounds/LOGO1.png" alt="Logo" class="logo" style="float: left;">
+    <a href="" id="company">FA<span style="color: rgb(233, 42, 9);">RM</span>ER S <span style="color: rgb(233, 42, 9);">HO</span>P</a>
+    <form action="/search" method="get">
+        <input type="text" class="search-bar" placeholder="Search..." name="search" id="searchInput">
+    </form>
+    <div id="menu-toggle">&#9776;</div>
+</div><!--large screen search result-->
+
+<div id="top-nav">
+    <form action="/search" method="get">
+        <input type="text" class="bar" placeholder="Search..." name="search" id="searchInput2">
+        <a id="angertag" href="contact.html">Contact</a>
+        <a id="angertag" href="category.html">Shop</a>
+        <a id="angertag" href="card.html">Orders</a>
+        <a id="angertag" href="home.html">Home</a>
+</form>
+</div>
+
+<div id="sidebar">
+    <a href="" id="companys">FARMER SHOP</a>
+    <a href="#" style="display: none;" onclick="closeNav()">Close</a>
+    <a href="category.html"><i class="fi fi-br-cart-arrow-down"></i> Shop</a>
+    <a href="card.html"><i class="fi fi-br-shopping-bag"></i> Orders</a>
+    <a href="contact.html">&#9743; Contact</a>
+</div>
+
+  <div class="video-link">
+    <video autoplay loop muted>
+        <source src="videos/vi-drynuts.webm" type="video/mp4">
+    </video>
+    <div class="overlay-text">
+        <h1 id="vi-heading">Nuts & Dry Fruits</h1>
+    </div>
+</div>
+
+
+  <div id="grid-container"></div><!--grid-container class div end-->
+
+  <div class="searchResults" id="searchResults"></div><!--small screen search result-->
+  <div class="searchResults" id="searchResults2"></div><!--large screen search result-->
+
+  <script src="javascript/navebar.js"></script>
+
+  <script src="javascript/drynuts.js"></script>
+
+
+</body>
+
+</html>

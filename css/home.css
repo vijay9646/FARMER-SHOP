@@ -1,0 +1,548 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/backgrounds/backs6.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 580px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+
+#angertag:hover{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    transition: 3s;
+}
+
+#slid {
+    margin-top: 5%;
+}
+
+#slids {
+    margin-top: 22%;
+}
+
+#slid {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 38%;
+    color: white;
+}
+
+#slid span {
+    font-size: 50px;
+    color: white;
+    margin-left: 8%;
+}
+
+#slids {
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 19%;
+    color: white;
+}
+
+#slids span {
+    font-size: 45px;
+    color: white;
+    margin-left: 27%;
+}
+
+@media screen and (max-width: 580px) {
+    #slid {
+        margin-top: 10%;
+    }
+    
+    #slids {
+        margin-top: 10%;
+    }
+    
+    #slid {
+        font-size: 15px;
+        font-weight: 700;
+        margin-left: 37%;
+        color: white;
+    }
+    
+    #slid span {
+        font-size: 20px;
+        color: white;
+        margin-left: 8%;
+    }
+    
+    #slids {
+        font-size: 18px;
+        font-weight: 700;
+        margin-right: 10%;
+        color: white;
+    }
+    
+    #slids span {
+        font-size: 20px;
+        color: white;
+        margin-left: 35%;
+    }
+    
+}
+
+/*content container starts*/
+
+.content-container1 {
+    grid-column: 2 / span 1;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    width: 100vw;
+    height: 65vh;
+
+}
+
+.left-side1 {
+    margin-left: 5%;
+}
+
+.left-side1 img {
+    width: 50vw;
+    height: 57vh;
+    border-radius: 8px;
+}
+
+.right-side1 {
+    width: 37vw;
+    padding: 20px;
+    height: 52vh;
+    margin-left: 9%;
+
+}
+
+.right-side1 h1 {
+    font-size: 40px;
+}
+
+.right-side1 p {
+    text-wrap: wrap;
+    font-size: 17px;
+    margin-left: 5%;
+}
+
+.right-side1 p img {
+    width: 20px;
+    height: 20px;
+    margin-right: 3%;
+}
+
+.right-side1 button {
+    margin-top: 2%;
+    padding: 20px;
+    width: 30%;
+    border-radius: 30px;
+    background-color: #2ef71c;
+    border-color: #2ef71c;
+}
+
+@media screen and (max-width: 580px) {
+    .content-container1 {
+        grid-template-columns: 1fr; /* Adjusting to a single column layout for smaller screens */
+        height: auto; /* Let content determine height */
+        margin-top: 10%;
+    }
+
+    .left-side1 {
+        margin-left: 0;
+    }
+
+    .left-side1 img {
+        width: 100%; /* Make the image take 100% of the container width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .right-side1 {
+        width: 100%; /* Make the right side take 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+    }
+
+    .right-side1 h1 {
+        font-size: 28px; /* Adjust heading font size */
+    }
+
+    .right-side1 p {
+        font-size: 14px; /* Adjust paragraph font size */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .right-side1 button {
+        width: 50%; /* Make the button take 100% of the container width */
+        margin-top: 5%; /* Adjust top margin */
+    }
+}
+
+/*three grid container start*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 80px;
+    background-color: aliceblue;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid white;
+    padding: 40px;
+    text-align: center;
+
+}
+
+#save {
+    width: 70px;
+    height: 70px;
+}
+
+@media screen and (max-width: 580px) {
+    .grid-container {
+        align-self: center;
+        grid-template-columns: repeat(2, 1fr); /* Change the number of columns for smaller screens */
+        padding: 20px; /* Adjust padding as needed */
+    }
+
+    .grid-item {
+        padding: 0; /* Adjust padding for smaller screens */
+    }
+
+    #save {
+        width: 50px; /* Adjust the width for smaller screens */
+        height: 50px; /* Adjust the height for smaller screens */
+    }
+}
+
+.fullwidth {
+    width: 100vw;
+    height: 25vh;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+
+.fullwidth img {
+    width: 10%;
+}
+
+.fullwidth span {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+
+.content-container2 {
+    grid-column: 2 / span 1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    background-image: url(/images/backgrounds/Agriform.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.left-side2 {
+    width: 100%;
+    height: 30vh;
+    border-radius: 8px;
+    color: white;
+    padding-left: 90px;
+}
+
+.left-side2 h1 {
+    font-size: 45px;
+    margin-top: 15%;
+}
+
+.right-side2 {
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+
+}
+
+.right-side2 button {
+    padding: 20px;
+    width: 180px;
+    margin-top: 15%;
+    background-color: #f36e31;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 22px;
+}
+
+/* Media query for screens with a maximum width of 580px */
+@media screen and (max-width: 580px) {
+    .content-container2 {
+        grid-template-columns: 1fr; /* Adjust the grid layout for smaller screens */
+        height: 50vh; /* Adjust the height for smaller screens */
+        padding: 15px; /* Add padding for better spacing on smaller screens */
+        background-size: 100%; /* Set background size to 100% for smaller screens */
+    }
+
+    .left-side2 {
+        padding-left: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .left-side2 h1 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        margin-top: 10%; /* Adjust margin for smaller screens */
+    }
+
+    #left-side2-h{
+        color: black;
+        margin-top: 35%;
+    }
+
+    #left-side2-p{
+        color: black;
+        padding: 0;
+    }
+
+    .right-side2 {
+        text-align: center;
+    }
+
+    .right-side2 button {
+        padding: 15px; /* Adjust padding for smaller screens */
+        width: 50%; /* Make the button full width on smaller screens */
+        margin-top: 15%; /* Adjust margin for smaller screens */
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+}
+
+
+.fullwidth2 {
+    width: 100vw;
+    height: 28vh;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+
+.fullwidth2 img {
+    width: 10%;
+}
+
+.fullwidth2 span {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+.grid-item2 {
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+
+}
+
+.grid-item2 h2,
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#saves {
+    width: 450px;
+    height: 300px;
+}
+
+.grid-item2 p i {
+    color: #2ef71c;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Media Query for screens with a maximum width of 580px */
+@media screen and (max-width: 580px) {
+    .grid-container2 {
+        grid-template-columns: repeat(1, 1fr); /* Adjust the number of columns for smaller screens */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .grid-item2 h2,
+    .grid-item2 p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #saves {
+        width: 100%; /* Make the width 100% for smaller screens */
+        height: auto; /* Adjust height for smaller screens */
+    }
+}
+
+/*footer tag css start*/
+
+.foot {
+    width: 100vw;
+    height: 48vh;
+    background-color: black;
+    color: white;
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    background-color: black;
+    height: 33vh;
+}
+
+.grid-item4 {
+    background-color: black;
+    padding: 20px;
+    height: 30vh;
+
+}
+
+#adressclass {
+    padding-left: 90px;
+}
+
+#fo {
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.grid-item4 h1 {
+    color: #2ef71c;
+}
+
+.grid-item4 h1 span {
+    color: #f36e31;
+}
+
+.grid-item4 h2 {
+    color: white;
+}
+
+#weblink,
+i {
+    color: white;
+}
+
+#ad {
+    text-decoration: none;
+    line-height: 2;
+    color: white;
+}
+
+.grid-item4 i {
+    margin-right: 3%;
+}
+
+#orgimgs {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+#companyname {
+    margin-right: -20px;
+    float: right;
+}
+
+/*last sign up from css*/
+
+#input-label {
+    display: flex;
+    align-items: center;
+
+}
+
+#user-input {
+    height: 35px;
+    width: 250px;
+    border: 2px solid #07f503;
+    border-radius: 4px;
+}
+
+#signup-button {
+    text-wrap: nowrap;
+    padding: 12px 30px;
+    background-color: #4caf50;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 580px) {
+    .foot {
+        height: auto; /* Adjust height as needed for smaller screens */
+        padding-left: 20px;
+    }
+
+    .grid-container4 {
+        grid-template-columns: 1fr; /* Change to a single column layout */
+        height: auto; /* Adjust height as needed for smaller screens */
+    }
+
+    .grid-item4 {
+        text-align: left;
+        height: auto; /* Adjust height as needed for smaller screens */
+    }
+
+    #companyname {
+        margin-right: 18%;
+        float: center;
+    }
+
+    /* Adjust other styles as needed for smaller screens */
+
+    #signup-button {
+        padding-right: 80px;
+        width: 20%; /* Make the button full width on smaller screens */
+    }
+
+    #last-p-tag{
+        text-wrap: nowrap;
+        height: 20px;
+    }
+
+    #copyright{
+        font-size: 15px;
+    }
+}
+

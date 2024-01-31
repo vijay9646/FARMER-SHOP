@@ -1,0 +1,53 @@
+{
+    "products": [
+
+        {
+            "name": "Fruits",
+            "description": "They are naturally good and contain vitamins and minerals that can help to keep you healthy",
+            "image": "images/fruits/fruitsall.jpg",
+            "link": "fruits.html?"
+        },
+        {
+            "id": "2",
+            "name": "English Vegetables",
+            "description": "Vegetables provide nutrients vital for the health and maintenance of the body.",
+            "image": "images/eng vegtables/vegitablesall.jpg",
+            "link": "engvegetables.html?"
+        },
+        {
+            "id": "3",
+            "name": "Traditional Vegetables",
+            "description": "Traditional vegetables are nutritious, easy to grow, and popular in certain regions.",
+            "image": "images/tradisnal veg/tradisnal vegall.jpeg",
+            "link": "tradisnalveg.html?"
+        },
+                {
+            "id": "4",
+            "name": "Daily Need",
+            "description": "Curry leaves and mint are used to spice up food in almost every Indian kitchen.",
+            "image": "images/daily need/dailyneedall.jpg",
+            "link": "dailyneed.html?"
+        },
+        {
+            "id": "5",
+            "name": "Nuts & Dry Fruits",
+            "description": "Dry fruits and nuts are a good source of essential vitamins, minerals, proteins, and healthy fats",
+            "image": "images/dry nuts/dry fruitsall.jpeg",
+            "link": "drynuts.html?"
+        },
+        {
+            "id": "6",
+            "name": "Groceries & provision",
+            "description": "small grains can produce profitable yields of grain for the cash market or farm feeding.",
+            "image": "images/grocering provi/siruthaniyamall.jpg",
+            "link": "grocering provi.html?"
+        },
+        {
+            "id": "7",
+            "name": "Oil & Ghee",
+            "description": "Oil and ghee are both used in cooking to add flavor and remove the rawness of dishes",
+            "image": "images/oil ghee/oil ghee.jpeg",
+            "link": "oilghee.html?"
+        }
+    ]
+}

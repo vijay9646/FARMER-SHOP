@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videos</title>
+    <style>
+        body {
+            margin: 0; /* Remove default margin */
+        }
+
+        .video-link {
+            margin-top: 4%;
+            position: relative; /* Set the position property to relative for positioning children elements */
+            width: 100vw;
+            height: 40vh;
+            overflow: hidden; /* Ensure the video doesn't overflow the viewport */
+        }
+
+        .video-link video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the video covers the entire container */
+        }
+
+        .overlay-text {
+            position: absolute; /* Position the text absolutely within the .video-link container */
+            top: 50%; /* Center the text vertically */
+            left: 50%; /* Center the text horizontally */
+            transform: translate(-50%, -50%); /* Adjust for centering */
+            color: white; /* Set the text color */
+            font-size: 24px; /* Set the font size */
+            font-family: 'Arial', sans-serif; /* Specify the font family */
+        }
+
+        #vi-heading{
+            color: rgb(27, 251, 2);
+            font-size: 80px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="video-link">
+        <video autoplay loop muted>
+            <source src="videos/vi-allfruit.mp4" type="video/mp4">
+        </video>
+        <div class="overlay-text">
+            <h1 id="vi-heading">Fruits</h1>
+        </div>
+    </div>
+</body>
+
+</html>

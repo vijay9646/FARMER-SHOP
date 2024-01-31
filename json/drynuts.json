@@ -1,0 +1,46 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Badam",
+            "price": 250.00,
+            "image": "images/dry nuts/badam.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Black Dates",
+            "price": 39.99,
+            "image": "images/dry nuts/black dates.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Black Long Raisins",
+            "price": 29.99,
+            "image": "images/dry nuts/black long raisnis.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Cashew Nut",
+            "price": 39.99,
+            "image": "images/dry nuts/cashew nut.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "Cashew Nut 240",
+            "price": 29.99,
+            "image": "images/dry nuts/chashew nut 240.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Raisins Dates Brown",
+            "price": 39.99,
+            "image": "images/dry nuts/raisins dates brown.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "Raisins Dates",
+            "price": 39.99,
+            "image": "images/dry nuts/raisins dates.jpeg"
+        }
+    ]
+}

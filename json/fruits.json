@@ -1,0 +1,130 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "price": 250.00,
+      "image": "images/fruits/apple.webp"
+    },
+    {
+      "id": 2,
+      "name": "Banana",
+      "price": 39.99,
+      "image": "images/fruits/bananas.webp"
+    },
+    {
+      "id": 3,
+      "name": "Custard apple",
+      "price": 29.99,
+      "image": "images/fruits/custral apple.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Emblica",
+      "price": 39.99,
+      "image": "images/fruits/emblica.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Fig",
+      "price": 29.99,
+      "image": "images/fruits/fig.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Grapes",
+      "price": 39.99,
+      "image": "images/fruits/grapes.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Guava (red)",
+      "price": 39.99,
+      "image": "images/fruits/guava red.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Guava (white)",
+      "price": 39.99,
+      "image": "images/fruits/guava white.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Jackfruit",
+      "price": 29.99,
+      "image": "images/fruits/jack furit.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Lemon",
+      "price": 39.99,
+      "image": "images/fruits/lemon.webp"
+    },
+    {
+      "id": 11,
+      "name": "Mango",
+      "price": 39.99,
+      "image": "images/fruits/mango.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Muskmelon",
+      "price": 39.99,
+      "image": "images/fruits/muskmelon.webp"
+    },
+    {
+      "id": 13,
+      "name": "Orange",
+      "price": 29.99,
+      "image": "images/fruits/orrenge.webp"
+    },
+    {
+      "id": 14,
+      "name": "Papaya",
+      "price": 39.99,
+      "image": "images/fruits/papaya.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Peach",
+      "price": 39.99,
+      "image": "images/fruits/peach.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Pineapple",
+      "price": 29.99,
+      "image": "images/fruits/pineapple.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Pomegranate",
+      "price": 39.99,
+      "image": "images/fruits/pomagranate.webp"
+    },
+    {
+      "id": 18,
+      "name": "Sapota",
+      "price": 39.99,
+      "image": "images/fruits/sapota.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Strawberry",
+      "price": 29.99,
+      "image": "images/fruits/strabery.webp"
+    },
+    {
+      "id": 20,
+      "name": "Tamarind",
+      "price": 39.99,
+      "image": "images/fruits/tamarind.jpeg"
+    },
+    {
+      "id": 21,
+      "name": "Watermelon",
+      "price": 39.99,
+      "image": "images/fruits/water melon.jpeg"
+    }
+  ]
+}

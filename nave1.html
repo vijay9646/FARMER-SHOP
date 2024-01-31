@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New one</title>
+    <link rel="stylesheet" href="css/new-navebar.css">
+    <style>
+        #angertag:hover{
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            transition: 3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <img src="images/backgrounds/LOGO1.png" alt="Logo" class="logo" style="float: left;">
+        <a href="" id="company">FARMER SHOP</a>
+        <form action="/search" method="get">
+            <input type="text" class="search-bar" placeholder="Search..." name="search" id="searchInput">
+        </form>
+        <div id="menu-toggle">&#9776;</div>
+    </div><!--large screen search result-->
+
+    <div id="top-nav">
+        <form action="/search" method="get">
+            <input type="text" class="bar" placeholder="Search..." name="search" id="searchInput2">
+            <a href="category.html">Shop</a>
+            <a href="card.html">Orders</a>
+            <a href="contact.html">Contact</a>
+        </form>
+    </div>
+
+    <div id="sidebar">
+        <a href="" id="companys">FARMER SHOP</a>
+        <a href="#" style="display: none;" onclick="closeNav()">Close</a>
+        <a href="#">Shop</a>
+        <a href="#">Orders</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="searchResults" id="searchResults"></div><!--small screen search result-->
+    <div class="searchResults" id="searchResults2"></div><!--large screen search result-->
+
+    <script src="javascript/navebar.js"></script>
+</body>
+
+</html>

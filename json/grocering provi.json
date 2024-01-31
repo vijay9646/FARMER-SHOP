@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Cardamom",
+            "price": 250.00,
+            "image": "images/grocering provi/cardamon.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Cumin",
+            "price": 39.99,
+            "image": "images/grocering provi/cumin.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Fenugreek",
+            "price": 29.99,
+            "image": "images/grocering provi/fenugreek.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Kashmiri Chilli",
+            "price": 39.99,
+            "image": "images/grocering provi/kasmiri chilli.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "Mustard Seeds",
+            "price": 29.99,
+            "image": "images/grocering provi/mustand seeds.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Pepper",
+            "price": 39.99,
+            "image": "images/grocering provi/pepper.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "Red Dry Chilli",
+            "price": 39.99,
+            "image": "images/grocering provi/red dry chilli.jpeg"
+        },
+        {
+            "id": 8,
+            "name": "Fennel Seeds",
+            "price": 39.99,
+            "image": "images/grocering provi/sombu.jpeg"
+        }
+    ]
+}

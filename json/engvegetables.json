@@ -1,0 +1,58 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Beetroot",
+            "price": 250.00,
+            "image": "images/eng vegtables/beetroot.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Broccoli",
+            "price": 39.99,
+            "image": "images/eng vegtables/broccoli.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Cabbage",
+            "price": 29.99,
+            "image": "images/eng vegtables/cabbage.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Capsicum",
+            "price": 39.99,
+            "image": "images/eng vegtables/capsicum.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "Carrot",
+            "price": 29.99,
+            "image": "images/eng vegtables/carrot.avif"
+        },
+        {
+            "id": 6,
+            "name": "Cauliflower",
+            "price": 39.99,
+            "image": "images/eng vegtables/cauliflower.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "Chow Chow",
+            "price": 39.99,
+            "image": "images/eng vegtables/chow chow.jpeg"
+        },
+        {
+            "id": 8,
+            "name": "Green Beans",
+            "price": 39.99,
+            "image": "images/eng vegtables/green beans.jpeg"
+        },
+        {
+            "id": 9,
+            "name": "Radish",
+            "price": 39.99,
+            "image": "images/eng vegtables/reddish.jpeg"
+        }
+    ]
+}

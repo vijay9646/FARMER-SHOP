@@ -1,0 +1,182 @@
+
+
+.responsive-table {
+    background-color: rgb(240, 225, 198);
+    margin-left: 15%;
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+
+tr{
+    border: 8px solid white;
+}
+
+tr:hover{
+    background-color: aquamarine;
+}
+
+
+th,
+td {
+    
+    font-weight: 700;
+    border: none;
+    padding: 8px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .responsive-table,
+    .responsive-table thead,
+    .responsive-table tbody,
+    .responsive-table th,
+    .responsive-table td,
+    .responsive-table tr {
+        display: block;
+    }
+
+    .responsive-table th {
+        display: none;
+    }
+
+    .responsive-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .responsive-table tr {
+        margin: 0 0 1rem 0;
+        
+    }
+
+    .responsive-table td {
+        border: none;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    .responsive-table td:before {
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    .responsive-table td:nth-of-type(1):before {
+        content: "Product";
+        font-weight: 900;
+    }
+
+    .responsive-table td:nth-of-type(2):before {
+        content: "Name";
+        font-weight: 900
+    }
+
+    .responsive-table td:nth-of-type(3):before {
+        content: "Price";
+        font-weight: 900
+    }
+
+    .responsive-table td:nth-of-type(4):before {
+        content: "Quantity";
+        font-weight: 900
+    }
+
+    .responsive-table td:nth-of-type(5):before {
+        content: "Total";
+        font-weight: 900
+    }
+
+    .responsive-table td:nth-of-type(6):before {
+        content: "Action";
+        font-weight: 900
+    }
+}
+
+.endbutton{
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+#bottomLeftButton{
+    border-radius: 5px;
+    border-color: white;
+    padding: 10px;
+    background-color: yellowgreen;
+}
+
+#bottomRightButton{
+    margin-left: 2%;
+    border-radius: 5px;
+    border-color: white;
+    padding: 10px;
+    background-color: yellowgreen;
+}
+
+#totalValue{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-left: 41%;
+    word-spacing: 1px;
+
+}
+
+#quaninput{
+    background-color: rgb(240, 225, 198);
+    text-align: center;
+    border: none;
+    padding: 0;
+    width: 30px;
+    font-weight: 900;
+}
+
+#quaninput:hover{
+    background-color: aquamarine;
+}
+
+#increbut{
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-left: 5px;
+}
+
+#degrebut{
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+#actionbut{
+    padding: auto;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(253, 4, 4);
+    border: none;
+}
+
+
+@media screen and (max-width: 580px) {
+
+    #totalValue{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;
+        font-weight: 900;
+        margin-left: 20%;
+        word-spacing: 1px;
+    
+    }
+
+}

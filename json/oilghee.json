@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Almond Oil",
+            "price": 250.00,
+            "image": "images/oil ghee/almond oli.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Buffalo Ghee",
+            "price": 39.99,
+            "image": "images/oil ghee/buffalo ghee.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Castor Oil",
+            "price": 29.99,
+            "image": "images/oil ghee/castor oil.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Coconut Oil",
+            "price": 39.99,
+            "image": "images/oil ghee/coconunt oil.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Cow Ghee",
+            "price": 29.99,
+            "image": "images/oil ghee/cow ghee.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Gingelly Oil",
+            "price": 39.99,
+            "image": "images/oil ghee/Gingily oil.png"
+        },
+        {
+            "id": 7,
+            "name": "Groundnut Oil",
+            "price": 39.99,
+            "image": "images/oil ghee/groundnut oil.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Neem Oil",
+            "price": 39.99,
+            "image": "images/oil ghee/neem oil.jpeg"
+        }
+    ]
+}

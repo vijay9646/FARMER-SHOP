@@ -1,0 +1,88 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Bitter Gourd",
+            "price": 350.00,
+            "image": "images/tradisnal veg/bitter ground.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Bottle Gourd",
+            "price": 39.99,
+            "image": "images/tradisnal veg/bottle gourd.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Brinjal",
+            "price": 29.99,
+            "image": "images/tradisnal veg/bringal.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Broad Beans",
+            "price": 39.99,
+            "image": "images/tradisnal veg/broad beans.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Cucumber",
+            "price": 29.99,
+            "image": "images/tradisnal veg/cucumbar.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Drumstick",
+            "price": 39.99,
+            "image": "images/tradisnal veg/drum strike.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "Lady's Finger",
+            "price": 39.99,
+            "image": "images/tradisnal veg/ladis finger.jpeg"
+        },
+        {
+            "id": 8,
+            "name": "Plantain Flower",
+            "price": 39.99,
+            "image": "images/tradisnal veg/plantain flower.jpeg"
+        },
+        {
+            "id": 9,
+            "name": "Plantain Stem",
+            "price": 29.99,
+            "image": "images/tradisnal veg/platain stem.jpeg"
+        },
+        {
+            "id": 10,
+            "name": "Pumpkin",
+            "price": 39.99,
+            "image": "images/tradisnal veg/pumpkin.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Ridge Gourd",
+            "price": 39.99,
+            "image": "images/tradisnal veg/ridge ground.jpeg"
+        },
+        {
+            "id": 12,
+            "name": "Snake Gourd",
+            "price": 39.99,
+            "image": "images/tradisnal veg/snake ground.jpeg"
+        },
+        {
+            "id": 13,
+            "name": "Sweet Corn",
+            "price": 29.99,
+            "image": "images/tradisnal veg/sweet corn.jpeg"
+        },
+        {
+            "id": 14,
+            "name": "Sweet Potato",
+            "price": 39.99,
+            "image": "images/tradisnal veg/sweet potato.jpeg"
+        }
+    ]
+}

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FARMER SHOP</title>
+
+    <link rel="icon" type="image/x-icon" href="images/backgrounds/LOGO1.png">
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+
+    <link rel='stylesheet'href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--fa fa i con cdn link-->
+
+    <link rel="stylesheet" href="css/contact.css">
+
+    <link rel="stylesheet" href="css/new-navebar.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            background-image: url(images/backgrounds/back1.png);
+            background-attachment: fixed;
+        }
+
+        .first {
+            position: relative;
+            width: 100vw;
+            height: 60vh;
+            overflow: hidden;
+        }
+
+        #first-image {
+            width: 100%;
+            /* Use 100% to make it responsive */
+            height: 100%;
+            object-fit: cover;
+            /* Maintain aspect ratio and cover the container */
+        }
+
+        .first h1,
+        h3 {
+            position: absolute;
+            top: 40%;
+            left: 15%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .grid-container {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 10px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .grid-item {
+            background-color: #f0f0f0;
+            height: 70vh;
+
+        }
+
+        .second {
+            text-align: center;
+            margin-top: 5%;
+        }
+
+        .item1,
+        .item2,
+        .item3,
+        .item4 {
+            color: white;
+            padding: 30px;
+            width: auto;
+            height: 8vh;
+            background-color: rgb(51, 200, 2);
+            padding-left: 10%;
+            padding-bottom: 6.7%;
+        }
+
+        #fa {
+            margin-right: 10px;
+        }
+
+        #faf {
+            color: white;
+        }
+
+        #fafa {
+            align-content: space-between;
+            padding-left: 20px;
+            color: white;
+        }
+
+        #right-item {
+            background-color: whitesmoke;
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-right: 40px;
+            font-weight: 520;
+            text-wrap: wrap;
+            height: 68.3vh;
+        }
+
+        #right-item input {
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        #yourname {
+            width: 14vw;
+            background-color: white;
+        }
+
+        #subject {
+            width: 14vw;
+            background-color: white;
+
+        }
+
+        #email {
+            width: 31.7vw;
+            font-size: 17px;
+        }
+
+        #message {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            width: 92.8%;
+            height: 21vh;
+
+        }
+
+        #intputform {
+            border-color: white;
+            border-radius: 50px;
+            margin-top: 15px;
+            width: 150px;
+            background-color: rgb(2, 203, 2);
+            color: white;
+            font-weight: 700;
+            font-size: 17px;
+
+        }
+
+        #maphead {
+            text-align: center;
+            font-size: 50px;
+            font-weight: 400;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        #iframe {
+            margin-left: 15%;
+            margin-top: 1%;
+            margin-bottom: 5%;
+        }
+
+        /*footer tag css start*/
+
+        .foot {
+            width: 100vw;
+            height: 48vh;
+            background-color: black;
+            color: white;
+        }
+
+        .grid-container4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 20px;
+            background-color: black;
+            height: 33vh;
+        }
+
+        .grid-item4 {
+            background-color: black;
+            padding: 20px;
+            height: 30vh;
+
+        }
+
+        #adressclass {
+            padding-left: 90px;
+        }
+
+        #fo {
+            color: white;
+            padding-left: 0;
+            padding-right: 0;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        .grid-item4 h1 {
+            color: #2ef71c;
+        }
+
+        .grid-item4 h1 span {
+            color: #f36e31;
+        }
+
+        .grid-item4 h2 {
+            color: white;
+        }
+
+        #weblink,
+        i {
+            color: white;
+        }
+
+        #ad {
+            text-decoration: none;
+            line-height: 2;
+            color: white;
+        }
+
+        .grid-item4 i {
+            margin-right: 3%;
+        }
+
+        #orgimgs {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+
+        #companyname {
+            margin-right: -20px;
+            float: right;
+        }
+
+        /*last sign up from css*/
+
+        #input-label {
+            display: flex;
+            align-items: center;
+
+        }
+
+        #user-input {
+            height: 35px;
+            width: 250px;
+            border: 2px solid #07f503;
+            border-radius: 4px;
+        }
+
+        #signup-button {
+            text-wrap: nowrap;
+            padding: 12px 30px;
+            background-color: #4caf50;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            font-size: 13px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+        }
+        #angertag:hover{
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            transition: 3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <img src="images/backgrounds/LOGO1.png" alt="Logo" class="logo" style="float: left;">
+        <a href="" id="company">FA<span style="color: rgb(233, 42, 9);">RM</span>ER S <span style="color: rgb(233, 42, 9);">HO</span>P</a>
+        <form action="/search" method="get">
+            <input type="text" class="search-bar" placeholder="Search..." name="search" id="searchInput">
+        </form>
+        <div id="menu-toggle">&#9776;</div>
+    </div><!--large screen search result-->
+
+    <div id="top-nav">
+        <form action="/search" method="get">
+            <input type="text" class="bar" placeholder="Search..." name="search" id="searchInput2">
+            <a id="angertag" href="contact.html">Contact</a>
+            <a id="angertag" href="category.html">Shop</a>
+            <a id="angertag" href="card.html">Orders</a>
+            <a id="angertag" href="home.html">Home</a>
+        </form>
+    </div>
+
+    <div id="sidebar">
+        <a href="" id="companys">FARMER SHOP</a>
+        <a href="#" style="display: none;" onclick="closeNav()">Close</a>
+        <a href="category.html"><i class="fi fi-br-cart-arrow-down"></i> Shop</a>
+        <a href="card.html"><i class="fi fi-br-shopping-bag"></i> Orders</a>
+        <a href="contact.html">&#9743; Contact</a>
+        </div>
+
+    <div class="searchResults" id="searchResults"></div><!--small screen search result-->
+    <div class="searchResults" id="searchResults2"></div><!--large screen search result-->
+
+    <div class="first">
+        <img src="images/backgrounds/back2.jpg" alt="" id="first-image">
+        <h1 style="font-size: 70px; color: black;">Contact Us</h1>
+        <h3 style="color: black; margin-top: 6%;">24/7 Customer Service</h3>
+    </div>
+
+    <div class="second">
+        <h1 style="font-size: 50px;">Contact Us</h1>
+        <p style="width: 30%; text-wrap: wrap; margin-left: 35%; margin-top: -1%;">We are committed to provide you with
+            the best possible support. Here's how you can get in touch with us</p>
+
+    </div>
+
+    <div class="grid-container"><!--grid container start-->
+        <div class="grid-item"><!--grid item start-->
+            <div class="item1">
+                <h2>Call Us</h2>
+                <h4><i id="fa" class="fa fa-phone" aria-hidden="true"></i> +91 9582685117</h4>
+            </div>
+
+            <div class="item2">
+                <h2>Email Us</h2>
+                <h4><i id="fa" class="fa fa-envelope" aria-hidden="true"></i> framershop@gmail.com</h4>
+            </div>
+
+            <div class="item3">
+                <h2>Office Address</h2>
+                <h4><i id="fa" class="fa fa-map-marker" aria-hidden="true"></i> 34/2, Hoops, Coimbatore, India</h4>
+            </div>
+            <div class="item4">
+                <h2>Follow Us</h2>
+                <a id="faf" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a id="fafa" href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                <a id="fafa" href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a id="fafa" href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </div>
+        </div><!--grid item end-->
+        <div class="grid-item" id="right-item"><!--grid item start-->
+            <p>It is our endeavour to respond and address your concerns on priority. Our team is continuously working to
+                ensure best of our support. In case of any issue/concern of complex nature it may require additional
+                time to resolve.</p>
+
+            <form action="process_form.php" method="post">
+                <label for="yourname"></label>
+                <input type="text" id="yourname" name="yourname" placeholder="your name" required>
+
+                <label for="subject"></label>
+                <input type="text" id="subject" name="subject" placeholder="subject" required>
+
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="email" required><br>
+
+                <label for="message"></label>
+                <textarea id="message" name="message" rows="4" placeholder="   your message" required></textarea><br>
+
+                <input id="intputform" type="submit" value="Sent Message">
+            </form>
+
+        </div>
+    </div>
+
+    <div style="background-color: #f5b403; padding: 5px;">
+        <h1 id="maphead">Vist Our Farm</h1>
+    </div>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.1503822695868!2d-77.03910472402612!3d38.89767627172398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7bcdecbb1df%3A0x715969d86d0b76bf!2sThe%20White%20House!5e0!3m2!1sen!2sin!4v1704967984962!5m2!1sen!2sin"
+        id="iframe" width="70%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer class="foot">
+        <div class="grid-container4">
+            <div class="grid-item4">
+                <img src="/images/backgrounds/LOGO1.png" alt="Your Logo" id="orgimgs">
+                <h1 id="companyname">FA<span>RM</span>ER S<span>HO</span>P</h1>
+                <p id="fo">To get benifited for your health,get all type<br>of fruits and vegetables <br>from our organic store</p>
+                <p id="fo">If the Farmer is rich, then so is the Nation.</p>
+                <a href="" id="weblink"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a href="" id="weblink"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="" id="weblink"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="" id="weblink"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="" id="weblink"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </div>
+            <div class="grid-item4" id="adressclass">
+                <h2>Address</h2>
+                <a href="" id="ad"><i class="fa fa-globe" aria-hidden="true"></i>34/2, Hopps, Coimbatore, India</a><br>
+                <a href="" id="ad"><i class="fa fa-phone" aria-hidden="true"></i>+91 9875684628</a><br>
+                <a href="" id="ad"><i class="fa fa-envelope" aria-hidden="true"></i>farmershop@gmail.com</a>
+            </div>
+            <div class="grid-item4" id="adressclass">
+                <h2>Quick Links</h2>
+                <a href="" id="ad"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>About Us</a><br>
+                <a href="" id="ad"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Contact Us</a><br>
+                <a href="" id="ad"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Our Services</a><br>
+                <a href="" id="ad"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Terms & Condition</a><br>
+                <a href="" id="ad"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Support</a>
+            </div>
+            <div class="grid-item4">
+                <h2>News Letter</h2>
+                <p id="fo">Plese sign in and and enter your details</p>
+                <form id="signup-form">
+                    <label id="input-label">
+                        <input type="email" id="user-input" placeholder="Enter your email">
+                        <button type="submit" id="signup-button">Sign Up</button>
+                    </label>
+                </form>
+            </div>
+        </div>
+        <hr style="color: white;">
+        <p><span style="float: left; font-size: 25px;">From Shop</span><span style="float: right;"> Copyright 1999-2023
+                by Refsnes Data. All Rights Reserved.</span></p><br>
+        <hr style="margin-top: 20px;">
+    </footer>
+
+
+    <script src="javascript/navebar.js"></script>
+
+
+</body>
+
+</html>
+
+<!--To get benifited for your health,get all type of fruits and vegetables for your daily needs from our organic store.-->

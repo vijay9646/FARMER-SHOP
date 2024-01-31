@@ -1,0 +1,47 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Amla",
+        "price": 250.00,
+        "image": "images/daily need/amla.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Coriander",
+        "price": 39.99,
+        "image": "images/daily need/corianden.webp"
+      },
+      {
+        "id": 3,
+        "name": "Curry Leaves",
+        "price": 29.99,
+        "image": "images/daily need/curry leaves.jpeg"
+      },
+      {
+        "id": 4,
+        "name": "Mint",
+        "price": 39.99,
+        "image": "images/daily need/mint.jpeg"
+      },
+      {
+        "id": 5,
+        "name": "Ooty Mushroom",
+        "price": 29.99,
+        "image": "images/daily need/ooty mushroom.jpeg"
+      },
+      {
+        "id": 6,
+        "name": "Oyster Mushroom",
+        "price": 39.99,
+        "image": "images/daily need/oyster mushroom.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Veld Grape",
+        "price": 39.99,
+        "image": "images/daily need/Veld grape.jpg"
+      }
+    ]
+  }
+  

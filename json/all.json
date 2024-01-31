@@ -1,0 +1,449 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Apple",
+        "price": 250.00,
+        "image": "images/fruits/apple.webp"
+      },
+      {
+        "id": 2,
+        "name": "Bananas",
+        "price": 39.99,
+        "image": "images/fruits/bananas.webp"
+      },
+      {
+        "id": 3,
+        "name": "Custard apple",
+        "price": 29.99,
+        "image": "images/fruits/custral apple.jpeg"
+      },
+      {
+        "id": 4,
+        "name": "Emblica",
+        "price": 39.99,
+        "image": "images/fruits/emblica.jpeg"
+      },
+      {
+        "id": 5,
+        "name": "Fig",
+        "price": 29.99,
+        "image": "images/fruits/fig.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Grapes",
+        "price": 39.99,
+        "image": "images/fruits/grapes.jpeg"
+      },
+      {
+        "id": 7,
+        "name": "Guava (red)",
+        "price": 39.99,
+        "image": "images/fruits/guava red.jpeg"
+      },
+      {
+        "id": 8,
+        "name": "Guava (white)",
+        "price": 39.99,
+        "image": "images/fruits/guava white.jpeg"
+      },
+      {
+        "id": 9,
+        "name": "Jackfruit",
+        "price": 29.99,
+        "image": "images/fruits/jack furit.jpeg"
+      },
+      {
+        "id": 10,
+        "name": "Lemon",
+        "price": 39.99,
+        "image": "images/fruits/lemon.webp"
+      },
+      {
+        "id": 11,
+        "name": "Mango",
+        "price": 39.99,
+        "image": "images/fruits/mango.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Muskmelon",
+        "price": 39.99,
+        "image": "images/fruits/muskmelon.webp"
+      },
+      {
+        "id": 13,
+        "name": "Orange",
+        "price": 29.99,
+        "image": "images/fruits/orrenge.webp"
+      },
+      {
+        "id": 14,
+        "name": "Papaya",
+        "price": 39.99,
+        "image": "images/fruits/papaya.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Peach",
+        "price": 39.99,
+        "image": "images/fruits/peach.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Pineapple",
+        "price": 29.99,
+        "image": "images/fruits/pineapple.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Pomegranate",
+        "price": 39.99,
+        "image": "images/fruits/pomagranate.webp"
+      },
+      {
+        "id": 18,
+        "name": "Sapota",
+        "price": 39.99,
+        "image": "images/fruits/sapota.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Strawberry",
+        "price": 29.99,
+        "image": "images/fruits/strabery.webp"
+      },
+      {
+        "id": 20,
+        "name": "Tamarind",
+        "price": 39.99,
+        "image": "images/fruits/tamarind.jpeg"
+      },
+      {
+        "id": 21,
+        "name": "Watermelon",
+        "price": 39.99,
+        "image": "images/fruits/water melon.jpeg"
+      },
+      {
+        "id": 1,
+        "name": "Beetroot",
+        "price": 250.00,
+        "image": "images/eng vegtables/beetroot.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Broccoli",
+        "price": 39.99,
+        "image": "images/eng vegtables/broccoli.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Cabbage",
+        "price": 29.99,
+        "image": "images/eng vegtables/cabbage.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Capsicum",
+        "price": 39.99,
+        "image": "images/eng vegtables/capsicum.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Carrot",
+        "price": 29.99,
+        "image": "images/eng vegtables/carrot.avif"
+    },
+    {
+        "id": 6,
+        "name": "Cauliflower",
+        "price": 39.99,
+        "image": "images/eng vegtables/cauliflower.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Chow Chow",
+        "price": 39.99,
+        "image": "images/eng vegtables/chow chow.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Green Beans",
+        "price": 39.99,
+        "image": "images/eng vegtables/green beans.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Radish",
+        "price": 39.99,
+        "image": "images/eng vegtables/reddish.jpeg"
+    },
+    {
+        "id": 1,
+        "name": "Bitter Ground",
+        "price": 350.00,
+        "image": "images/tradisnal veg/bitter ground.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Bottle Gourd",
+        "price": 39.99,
+        "image": "images/tradisnal veg/bottle gourd.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Brinjal",
+        "price": 29.99,
+        "image": "images/tradisnal veg/bringal.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Broad Beans",
+        "price": 39.99,
+        "image": "images/tradisnal veg/broad beans.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Cucumber",
+        "price": 29.99,
+        "image": "images/tradisnal veg/cucumbar.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Drumstick",
+        "price": 39.99,
+        "image": "images/tradisnal veg/drum strike.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Lady's Finger",
+        "price": 39.99,
+        "image": "images/tradisnal veg/ladis finger.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Plantain Flower",
+        "price": 39.99,
+        "image": "images/tradisnal veg/plantain flower.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Plantain Stem",
+        "price": 29.99,
+        "image": "images/tradisnal veg/platain stem.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Pumpkin",
+        "price": 39.99,
+        "image": "images/tradisnal veg/pumpkin.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Ridge Gourd",
+        "price": 39.99,
+        "image": "images/tradisnal veg/ridge ground.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "Snake Gourd",
+        "price": 39.99,
+        "image": "images/tradisnal veg/snake ground.jpeg"
+    },
+    {
+        "id": 13,
+        "name": "Sweet Corn",
+        "price": 29.99,
+        "image": "images/tradisnal veg/sweet corn.jpeg"
+    },
+    {
+        "id": 14,
+        "name": "Sweet Potato",
+        "price": 39.99,
+        "image": "images/tradisnal veg/sweet potato.jpeg"
+    },
+    {
+        "id": 1,
+        "name": "Amla",
+        "price": 250.00,
+        "image": "images/daily need/amla.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Corianden",
+        "price": 39.99,
+        "image": "images/daily need/corianden.webp"
+      },
+      {
+        "id": 3,
+        "name": "Curry Leaves",
+        "price": 29.99,
+        "image": "images/daily need/curry leaves.jpeg"
+      },
+      {
+        "id": 4,
+        "name": "Mint",
+        "price": 39.99,
+        "image": "images/daily need/mint.jpeg"
+      },
+      {
+        "id": 5,
+        "name": "Ooty Mushroom",
+        "price": 29.99,
+        "image": "images/daily need/ooty mushroom.jpeg"
+      },
+      {
+        "id": 6,
+        "name": "Oyster Mushroom",
+        "price": 39.99,
+        "image": "images/daily need/oyster mushroom.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Veld Grape",
+        "price": 39.99,
+        "image": "images/daily need/veld grape.webp"
+      },
+      {
+        "id": 1,
+        "name": "Badam",
+        "price": 250.00,
+        "image": "images/dry nuts/badam.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Black Dates",
+        "price": 39.99,
+        "image": "images/dry nuts/black dates.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Black Long Raisins",
+        "price": 29.99,
+        "image": "images/dry nuts/black long raisnis.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Cashew Nut",
+        "price": 39.99,
+        "image": "images/dry nuts/cashew nut.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Cashew Nut 240",
+        "price": 29.99,
+        "image": "images/dry nuts/chashew nut 240.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Raisins Dates Brown",
+        "price": 39.99,
+        "image": "images/dry nuts/raisins dates brown.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Raisins Dates",
+        "price": 39.99,
+        "image": "images/dry nuts/raisins dates.jpeg"
+    },
+    {
+        "id": 1,
+        "name": "Cardamon",
+        "price": 250.00,
+        "image": "images/grocering provi/cardamon.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Cumin",
+        "price": 39.99,
+        "image": "images/grocering provi/cumin.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Fenugreek",
+        "price": 29.99,
+        "image": "images/grocering provi/fenugreek.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Kashmiri Chilli",
+        "price": 39.99,
+        "image": "images/grocering provi/kasmiri chilli.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Mustard Seeds",
+        "price": 29.99,
+        "image": "images/grocering provi/mustand seeds.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Pepper",
+        "price": 39.99,
+        "image": "images/grocering provi/pepper.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Red Dry Chilli",
+        "price": 39.99,
+        "image": "images/grocering provi/red dry chilli.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Fennel Seeds",
+        "price": 39.99,
+        "image": "images/grocering provi/sombu.jpeg"
+    },
+    {
+        "id": 1,
+        "name": "Almond Oil",
+        "price": 250.00,
+        "image": "images/oil ghee/almond oli.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Buffalo Ghee",
+        "price": 39.99,
+        "image": "images/oil ghee/buffalo ghee.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Castor Oil",
+        "price": 29.99,
+        "image": "images/oil ghee/castor oil.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Coconut Oil",
+        "price": 39.99,
+        "image": "images/oil ghee/coconunt oil.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Cow Ghee",
+        "price": 29.99,
+        "image": "images/oil ghee/cow ghee.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Gingelly Oil",
+        "price": 39.99,
+        "image": "images/oil ghee/Gingily oil.png"
+    },
+    {
+        "id": 7,
+        "name": "Groundnut Oil",
+        "price": 39.99,
+        "image": "images/oil ghee/groundnut oil.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Neem Oil",
+        "price": 39.99,
+        "image": "images/oil ghee/neem oil.jpeg"
+    }
+    ]
+  }
+  
